@@ -1,0 +1,15 @@
+div.container {
+	background-color: #A4D4FF;
+}
+
+div.jumbotron {
+	margin-top: 20px;
+	overflow: auto;
+}
+
+div.nicediv {
+	border-radius: 6px;
+	background-color: #EEE;
+	padding: 10px;
+	margin: 10px;
+}
