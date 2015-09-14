@@ -1,3 +1,7 @@
+body {
+	background-color: #206097;
+}
+
 div.container {
 	background-color: #A4D4FF;
 }
@@ -7,9 +11,94 @@ div.jumbotron {
 	overflow: auto;
 }
 
-div.nicediv {
-	border-radius: 6px;
-	background-color: #EEE;
+div.nicediv, div.galerydiv {
+	border-radius: 8px;
 	padding: 10px;
 	margin: 10px;
 }
+
+div.nicediv {
+	background-color: #EEE;
+}
+
+div.galerydiv {
+	background-color: #EEE;
+}
+
+p {
+	text-indent: 5%;
+}
+
+
+
+a.btn-link, a.btn-link:link, a.btn-link:visited{
+	background-color: inherit;
+	color: white;
+	border-color: white;
+	border-width: 1;
+	text-align: left;
+}
+
+a.btn-link:hover {
+	color: red;
+	border-color: red;
+}
+
+a.btn-primary, a.btn-primary:link, a.btn-primary.visited: {
+	background-color: #337AB7;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a.btn-primary:hover {
+	background-color: #206097;
+	text-decoration: none;
+}
+
+a.btn-default {
+	background-color: #EEE;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a.btn-default:hover {
+	background-color: #DDD;
+	text-decoration: none;
+}
+
+div.row {
+	margin: 20px;
+}
+
+div.noupdownmargin {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div.addmargin {
+	padding: 5px;
+}
+
+img.center {
+	margin: auto;
+}
+
+h3, blockquote {
+	color: #337AB7;
+}
+
+.thumbnail {
+	background-color: inherit;
+}
+
+/*
+colors used:
+#EEE - light grey
+#DDD - darker gray
+#A4D4FF - lighter blue
+#337AB7 - light blue
+#337AB7 - blue
+#206097 - dark blue
+*/
